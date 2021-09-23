@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/utils/palette.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/utils/palette.dart';
+import 'package:demo/utils/utils.dart';
 
 class BaseWidget extends StatelessWidget {
   const BaseWidget({

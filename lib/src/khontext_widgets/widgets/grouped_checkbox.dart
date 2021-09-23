@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/src/khontext_widgets/form_builder_field.dart';
-import 'package:khontext/src/khontext_widgets/form_builder_field_option.dart';
+import 'package:demo/src/demo_widgets/form_builder_field.dart';
+import 'package:demo/src/demo_widgets/form_builder_field_option.dart';
 
 class GroupedCheckbox<T> extends StatefulWidget {
   /// A list of string that describes each checkbox. Each item must be distinct.

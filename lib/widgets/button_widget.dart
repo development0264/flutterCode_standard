@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/utils/palette.dart';
+import 'package:demo/utils/palette.dart';
 
 /// This is the custom reusable widget for the [MaterialButton]
 /// It takes a widget child to show within it and gives the recall function for the on press.

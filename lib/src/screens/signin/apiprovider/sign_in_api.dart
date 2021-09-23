@@ -1,7 +1,7 @@
-import 'package:khontext/api/api_endpoints.dart';
-import 'package:khontext/api/base_api_provider.dart';
-import 'package:khontext/src/models/signin/sign_in_request_model.dart';
-import 'package:khontext/src/models/complete_profile_response_model.dart';
+import 'package:demo/api/api_endpoints.dart';
+import 'package:demo/api/base_api_provider.dart';
+import 'package:demo/src/models/signin/sign_in_request_model.dart';
+import 'package:demo/src/models/complete_profile_response_model.dart';
 
 class SignInApiCalls {
   const SignInApiCalls();

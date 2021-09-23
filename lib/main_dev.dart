@@ -1,10 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:khontext/api/api_endpoints.dart';
-import 'package:khontext/khontext_app.dart';
-import 'package:khontext/redux/store/store.dart';
-import 'package:khontext/utils/enums.dart';
-import 'package:khontext/utils/flavor_config.dart';
+import 'package:demo/api/api_endpoints.dart';
+import 'package:demo/demo_app.dart';
+import 'package:demo/redux/store/store.dart';
+import 'package:demo/utils/enums.dart';
+import 'package:demo/utils/flavor_config.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,10 +27,10 @@ void main() async {
   final store = appStore();
   // Catch errors without crashing the app:
   // runZonedGuarded(() {
-  //   runApp(KhontextApp(store: store));
+  //   runApp(demoApp(store: store));
   // }, (error, stackTrace) {
   //   DatadogRum.instance.addError(error, stackTrace);
   // });
 
-  runApp(KhontextApp(store: store));
+  runApp(demoApp(store: store));
 }

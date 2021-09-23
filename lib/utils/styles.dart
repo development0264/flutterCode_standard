@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:khontext/utils/palette.dart';
+import 'package:demo/utils/palette.dart';
 
 class Styles {
   /// This is the custom text style used throughout the application

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/src/khontext_widgets/fields/form_builder_text.dart';
-import 'package:khontext/utils/palette.dart';
-import 'package:khontext/utils/styles.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/src/demo_widgets/fields/form_builder_text.dart';
+import 'package:demo/utils/palette.dart';
+import 'package:demo/utils/styles.dart';
+import 'package:demo/utils/utils.dart';
 
 class DropDownWidget extends StatelessWidget {
   final Function onPressed;

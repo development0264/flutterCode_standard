@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:khontext/utils/palette.dart';
+import 'package:demo/utils/palette.dart';
 
 class ImageCropperFile {
   static Future<File> imageCrop(BuildContext context, {PickedFile file}) async {

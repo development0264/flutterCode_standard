@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chips_input/flutter_chips_input.dart';
-import 'package:khontext/src/khontext_widgets/form_builder.dart';
-import 'package:khontext/src/khontext_widgets/form_builder_field.dart';
+import 'package:demo/src/demo_widgets/form_builder.dart';
+import 'package:demo/src/demo_widgets/form_builder_field.dart';
 
 /// A field that takes a list of `Chip`s as input and suggests more options
 /// while typing

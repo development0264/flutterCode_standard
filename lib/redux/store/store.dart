@@ -1,6 +1,6 @@
-import 'package:khontext/redux/app_state.dart';
-import 'package:khontext/redux/middleware/app_middleware.dart';
-import 'package:khontext/redux/reducers/app_reducer.dart';
+import 'package:demo/redux/app_state.dart';
+import 'package:demo/redux/middleware/app_middleware.dart';
+import 'package:demo/redux/reducers/app_reducer.dart';
 import 'package:redux/redux.dart';
 
 Store<AppState> appStore() {

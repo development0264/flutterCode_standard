@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:khontext/redux/actions/signin/sign_in_action.dart';
-import 'package:khontext/redux/app_state.dart';
-import 'package:khontext/src/khontext_widgets/localization/form_builder_localizations.dart';
-import 'package:khontext/src/models/complete_profile_response_model.dart';
-import 'package:khontext/src/screens/signin/apiprovider/sign_in_api.dart';
-import 'package:khontext/utils/constants.dart';
-import 'package:khontext/utils/routes_constants.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/redux/actions/signin/sign_in_action.dart';
+import 'package:demo/redux/app_state.dart';
+import 'package:demo/src/demo_widgets/localization/form_builder_localizations.dart';
+import 'package:demo/src/models/complete_profile_response_model.dart';
+import 'package:demo/src/screens/signin/apiprovider/sign_in_api.dart';
+import 'package:demo/utils/constants.dart';
+import 'package:demo/utils/routes_constants.dart';
+import 'package:demo/utils/utils.dart';
 import 'package:redux/redux.dart';
 import 'package:toast/toast.dart';
 

@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:khontext/utils/enums.dart';
-import 'package:khontext/utils/palette.dart';
-import 'package:khontext/utils/routes_constants.dart';
-import 'package:khontext/widgets/done_popup_widget.dart';
+import 'package:demo/utils/enums.dart';
+import 'package:demo/utils/palette.dart';
+import 'package:demo/utils/routes_constants.dart';
+import 'package:demo/widgets/done_popup_widget.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:toast/toast.dart';

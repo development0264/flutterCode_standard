@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
-import 'package:khontext/api/exceptions.dart';
-import 'package:khontext/utils/flavor_config.dart';
+import 'package:demo/api/exceptions.dart';
+import 'package:demo/utils/flavor_config.dart';
 
 /// [ApiProvider] is the base api provider class which will call all the rest api.
 /// This class contains [http.get], [http.put], [http.patch], [http.post] and the post api with the [http.MultipartFile]

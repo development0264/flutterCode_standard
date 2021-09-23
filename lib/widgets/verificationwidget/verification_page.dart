@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/src/khontext_widgets/fields/form_builder_text.dart';
-import 'package:khontext/src/khontext_widgets/flutter_form_builder.dart';
-import 'package:khontext/widgets/verificationwidget/resend_timer_widget.dart';
-import 'package:khontext/utils/constants.dart';
-import 'package:khontext/utils/enums.dart';
-import 'package:khontext/utils/palette.dart';
-import 'package:khontext/utils/styles.dart';
-import 'package:khontext/utils/utils.dart';
-import 'package:khontext/widgets/base_widget.dart';
-import 'package:khontext/widgets/button_widget.dart';
+import 'package:demo/src/demo_widgets/fields/form_builder_text.dart';
+import 'package:demo/src/demo_widgets/flutter_form_builder.dart';
+import 'package:demo/widgets/verificationwidget/resend_timer_widget.dart';
+import 'package:demo/utils/constants.dart';
+import 'package:demo/utils/enums.dart';
+import 'package:demo/utils/palette.dart';
+import 'package:demo/utils/styles.dart';
+import 'package:demo/utils/utils.dart';
+import 'package:demo/widgets/base_widget.dart';
+import 'package:demo/widgets/button_widget.dart';
 
 class VerificationPage extends StatefulWidget {
   final String mainTitle;

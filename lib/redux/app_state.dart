@@ -1,4 +1,4 @@
-import 'package:khontext/redux/states/signin/sign_in_state.dart';
+import 'package:demo/redux/states/signin/sign_in_state.dart';
 import 'package:meta/meta.dart';
 
 /// [AppState] class is the root class which will provide the state of the entire application.

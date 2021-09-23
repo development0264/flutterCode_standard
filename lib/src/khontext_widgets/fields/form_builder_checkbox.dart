@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:khontext/src/khontext_widgets/form_builder.dart';
-import 'package:khontext/src/khontext_widgets/form_builder_field.dart';
-import 'package:khontext/utils/palette.dart';
+import 'package:demo/src/demo_widgets/form_builder.dart';
+import 'package:demo/src/demo_widgets/form_builder_field.dart';
+import 'package:demo/utils/palette.dart';
 
 /// Single Checkbox field
 class FormBuilderCheckbox extends FormBuilderField<bool> {

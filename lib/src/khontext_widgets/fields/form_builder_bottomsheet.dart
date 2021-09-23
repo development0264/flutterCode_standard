@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/utils/palette.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/utils/palette.dart';
+import 'package:demo/utils/utils.dart';
 
 /// [Widget] passed by the child usages to show the child in the particular bottom sheet
 class FormBuilderBottomSheet {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
-import 'package:khontext/src/khontext_widgets/fields/form_builder_slider.dart';
-import 'package:khontext/src/khontext_widgets/form_builder.dart';
-import 'package:khontext/src/khontext_widgets/form_builder_field.dart';
+import 'package:demo/src/demo_widgets/fields/form_builder_slider.dart';
+import 'package:demo/src/demo_widgets/form_builder.dart';
+import 'package:demo/src/demo_widgets/form_builder_field.dart';
 
 /// Field to select a range of values on a Slider
 class FormBuilderRangeSlider extends FormBuilderField<RangeValues> {

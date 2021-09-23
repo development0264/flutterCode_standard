@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:khontext/src/khontext_widgets/khontext_l10n/messages_all.dart';
+import 'package:demo/src/demo_widgets/demo_l10n/messages_all.dart';
 
 class FormBuilderLocalizations {
   static Future<FormBuilderLocalizations> load(Locale locale) {
@@ -28,7 +28,7 @@ class FormBuilderLocalizations {
   }
 
   String get appNameText => Intl.message(
-        'Khontext',
+        'demo',
         name: 'appNameText',
         desc: 'app name Text',
       );
@@ -718,9 +718,9 @@ class FormBuilderLocalizations {
   );
 
   String get welcomeText => Intl.message(
-    'Welcome to Khontext!',
+    'Welcome to demo!',
     name: 'welcomeText',
-    desc: 'Welcome to Khontext text',
+    desc: 'Welcome to demo text',
   );
 
   String get emailConfirmText => Intl.message(
@@ -850,7 +850,7 @@ class FormBuilderLocalizations {
   );
 
   String get getStartedInfoText => Intl.message(
-    'To become a verified translator on Khontext platform, we\'ll walk you through the onboarding process. It only takes a few minutes to get it done. ',
+    'To become a verified translator on demo platform, we\'ll walk you through the onboarding process. It only takes a few minutes to get it done. ',
     name: 'getStartedInfoText',
     desc: 'Get started info text',
   );

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:khontext/utils/enums.dart';
+import 'package:demo/utils/enums.dart';
 
 class FlavorValues {
   final String baseUrl;

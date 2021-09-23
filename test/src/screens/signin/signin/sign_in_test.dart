@@ -5,19 +5,19 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
-import 'package:khontext/api/api_endpoints.dart';
-import 'package:khontext/api/base_api_provider.dart';
-import 'package:khontext/khontext_app.dart';
-import 'package:khontext/redux/app_state.dart';
-import 'package:khontext/redux/store/store.dart';
-import 'package:khontext/src/models/signin/sign_in_request_model.dart';
-import 'package:khontext/src/models/complete_profile_response_model.dart';
-import 'package:khontext/src/screens/signin/apiprovider/sign_in_api.dart';
-import 'package:khontext/src/screens/signin/signin/sign_in.dart';
-import 'package:khontext/utils/constants.dart';
-import 'package:khontext/utils/enums.dart';
-import 'package:khontext/utils/flavor_config.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/api/api_endpoints.dart';
+import 'package:demo/api/base_api_provider.dart';
+import 'package:demo/demo_app.dart';
+import 'package:demo/redux/app_state.dart';
+import 'package:demo/redux/store/store.dart';
+import 'package:demo/src/models/signin/sign_in_request_model.dart';
+import 'package:demo/src/models/complete_profile_response_model.dart';
+import 'package:demo/src/screens/signin/apiprovider/sign_in_api.dart';
+import 'package:demo/src/screens/signin/signin/sign_in.dart';
+import 'package:demo/utils/constants.dart';
+import 'package:demo/utils/enums.dart';
+import 'package:demo/utils/flavor_config.dart';
+import 'package:demo/utils/utils.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:redux/redux.dart';
@@ -68,7 +68,7 @@ void main() {
 
   group("Other click events", () {
     testWidgets("Pumping root widget", (WidgetTester tester) async {
-      await tester.pumpWidget(KhontextApp(store: store));
+      await tester.pumpWidget(demoApp(store: store));
       Utils.setStringToPrefs(Constants.userToken, MockSignInData.USER_TOKEN);
       await tester.runAsync(() async {
         Utils.initiatePreferences();
@@ -112,7 +112,7 @@ void main() {
 
   group('Sign in button click group', () {
     testWidgets("Pumping root widget and sign in page", (WidgetTester tester) async {
-      await tester.pumpWidget(KhontextApp(store: store));
+      await tester.pumpWidget(demoApp(store: store));
       await tester.runAsync(() async {
         Utils.initiatePreferences();
       });

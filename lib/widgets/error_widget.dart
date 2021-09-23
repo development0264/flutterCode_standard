@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/src/khontext_widgets/fields/form_builder_text.dart';
+import 'package:demo/src/demo_widgets/fields/form_builder_text.dart';
 
 class ErrorTextWidget extends StatelessWidget {
   final String error;

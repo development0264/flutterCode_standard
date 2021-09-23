@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/utils/utils.dart';
 
 class Palette {
   /// colors

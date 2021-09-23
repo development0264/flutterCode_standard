@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'package:khontext/src/khontext_widgets/flutter_form_builder.dart';
+import 'package:demo/src/demo_widgets/flutter_form_builder.dart';
 
 enum InputType { date, time, both }
 

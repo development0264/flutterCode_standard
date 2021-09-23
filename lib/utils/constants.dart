@@ -242,7 +242,7 @@ class Constants {
   static const String error = "Error";
 
   // Chat module constants
-  static const String chatBridgeName = "com.khontext.app/chat_bridge";
+  static const String chatBridgeName = "com.demo.app/chat_bridge";
   static final String chatAccessToken = "ChatAccessToken";
   static const String initiateChat = "InitiateChat";
   static const String newConversation = "NewConversation";
@@ -259,7 +259,7 @@ class Constants {
   static const String message = "Message";
 
   // Payment module constants
-  static const String paymentBridgeName = "com.khontext.app/payment_token";
+  static const String paymentBridgeName = "com.demo.app/payment_token";
   static const String paymentCard = "InitiatePaymentCard";
   static const String paymentCardNumber = "CardNumber";
   static const String cardExpiryMonth = "CardExpiryMonth";

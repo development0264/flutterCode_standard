@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:khontext/src/khontext_widgets/form_builder.dart';
-import 'package:khontext/src/khontext_widgets/form_builder_field.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/src/demo_widgets/form_builder.dart';
+import 'package:demo/src/demo_widgets/form_builder_field.dart';
+import 'package:demo/utils/utils.dart';
 
 /// A Material Design text field input.
 class FormBuilderTextField extends FormBuilderField<String> {

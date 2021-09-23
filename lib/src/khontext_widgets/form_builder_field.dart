@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:khontext/src/khontext_widgets/form_builder.dart';
+import 'package:demo/src/demo_widgets/form_builder.dart';
 
 enum OptionsOrientation { horizontal, vertical, wrap }
 enum ControlAffinity { leading, trailing }

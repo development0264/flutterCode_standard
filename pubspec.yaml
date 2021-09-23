@@ -1,5 +1,5 @@
-name: khontext
-description: Khontext application is a flutter application which will provide the on demand service of a language translator to a user.
+name: demo
+description: demo application is a flutter application which will provide the on demand service of a language translator to a user.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

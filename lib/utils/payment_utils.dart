@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:khontext/redux/app_state.dart';
-import 'package:khontext/utils/constants.dart';
+import 'package:demo/redux/app_state.dart';
+import 'package:demo/utils/constants.dart';
 import 'package:redux/redux.dart';
 
 class PaymentUtils{

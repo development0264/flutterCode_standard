@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:khontext/src/khontext_widgets/flutter_form_builder.dart';
-import 'package:khontext/utils/palette.dart';
-import 'package:khontext/utils/styles.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/src/demo_widgets/flutter_form_builder.dart';
+import 'package:demo/utils/palette.dart';
+import 'package:demo/utils/styles.dart';
+import 'package:demo/utils/utils.dart';
 
 class ResendTimerWidget extends StatefulWidget {
   final Function resendClicked;

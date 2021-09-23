@@ -29,7 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "appNameText" : MessageLookupByLibrary.simpleMessage("Khontext"),
+    "appNameText" : MessageLookupByLibrary.simpleMessage("demo"),
 
     // Validations
     "creditCardErrorText" : MessageLookupByLibrary.simpleMessage("This field requires a valid credit card number."),
@@ -152,7 +152,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "privacyPolicyText":MessageLookupByLibrary.simpleMessage("Privacy Policy."),
     "signInNowText":MessageLookupByLibrary.simpleMessage("Sign in now"),
     "checkTermsText":MessageLookupByLibrary.simpleMessage("Please check the terms and conditions."),
-    "welcomeText":MessageLookupByLibrary.simpleMessage("Welcome to Khontext!"),
+    "welcomeText":MessageLookupByLibrary.simpleMessage("Welcome to demo!"),
     "emailConfirmText":MessageLookupByLibrary.simpleMessage("Please confirm your email"),
     "emailSentText":MessageLookupByLibrary.simpleMessage("Email sent successfully."),
     "phoneConfirmText":MessageLookupByLibrary.simpleMessage("Please enter your phone number"),
@@ -177,7 +177,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
     // Get started screen
     "getStartedText":MessageLookupByLibrary.simpleMessage("Are you ready to get started?"),
-    "getStartedInfoText":MessageLookupByLibrary.simpleMessage("To become a verified translator on Khontext platform, we\'ll walk you through the onboarding process. It only takes a few minutes to get it done. "),
+    "getStartedInfoText":MessageLookupByLibrary.simpleMessage("To become a verified translator on demo platform, we\'ll walk you through the onboarding process. It only takes a few minutes to get it done. "),
     "onBoardingText":MessageLookupByLibrary.simpleMessage("Start onboarding"),
 
     // Welcome back screen

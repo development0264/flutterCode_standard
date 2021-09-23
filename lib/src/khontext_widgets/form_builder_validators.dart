@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:khontext/src/khontext_widgets/localization/form_builder_localizations.dart';
+import 'package:demo/src/demo_widgets/localization/form_builder_localizations.dart';
 import 'package:validators/validators.dart';
 
 /// For creation of [FormFieldValidator]s.

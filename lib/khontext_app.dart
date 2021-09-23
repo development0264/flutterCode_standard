@@ -5,25 +5,25 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:http/http.dart' as http;
-import 'package:khontext/api/base_api_provider.dart';
-import 'package:khontext/redux/app_state.dart';
-import 'package:khontext/src/khontext_widgets/localization/form_builder_localizations.dart';
-import 'package:khontext/src/screens/signin/signin/sign_in.dart';
-import 'package:khontext/utils/constants.dart';
-import 'package:khontext/utils/routes_constants.dart';
-import 'package:khontext/utils/utils.dart';
+import 'package:demo/api/base_api_provider.dart';
+import 'package:demo/redux/app_state.dart';
+import 'package:demo/src/demo_widgets/localization/form_builder_localizations.dart';
+import 'package:demo/src/screens/signin/signin/sign_in.dart';
+import 'package:demo/utils/constants.dart';
+import 'package:demo/utils/routes_constants.dart';
+import 'package:demo/utils/utils.dart';
 import 'package:redux/redux.dart';
 
-class KhontextApp extends StatefulWidget {
+class demoApp extends StatefulWidget {
   final Store<AppState> store;
 
-  const KhontextApp({Key key, this.store}) : super(key: key);
+  const demoApp({Key key, this.store}) : super(key: key);
 
   @override
-  _KhontextAppState createState() => _KhontextAppState();
+  _demoAppState createState() => _demoAppState();
 }
 
-class _KhontextAppState extends State<KhontextApp> with WidgetsBindingObserver {
+class _demoAppState extends State<demoApp> with WidgetsBindingObserver {
   var hasPushedToCall = false;
   AppLifecycleState state;
   final GlobalKey<NavigatorState> _navigator = GlobalKey<NavigatorState>();
@@ -47,7 +47,7 @@ class _KhontextAppState extends State<KhontextApp> with WidgetsBindingObserver {
     return StoreProvider<AppState>(
       store: widget.store,
       child: MaterialApp(
-        title: 'Khontext App',
+        title: 'demo App',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,

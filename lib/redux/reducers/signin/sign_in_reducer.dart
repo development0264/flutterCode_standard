@@ -1,5 +1,5 @@
-import 'package:khontext/redux/actions/signin/sign_in_action.dart';
-import 'package:khontext/redux/states/signin/sign_in_state.dart';
+import 'package:demo/redux/actions/signin/sign_in_action.dart';
+import 'package:demo/redux/states/signin/sign_in_state.dart';
 import 'package:redux/redux.dart';
 
 /// This will give the common combined reducer which will call different functions below like.
