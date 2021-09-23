@@ -1,9 +1,0 @@
-export 'translatorcontracts/translator_contracts.dart';
-export 'translatorearnings/translator_earnings.dart';
-export 'translatoreducation/translator_education.dart';
-export 'translatorexperience/translator_experience.dart';
-export 'translatoridentification/translator_identification.dart';
-export 'translatorjobs/translator_jobs.dart';
-export 'translatorprofile/translator_profile_page.dart';
-export 'translatorschedule/translator_schedule.dart';
-export 'translatortax/translator_tax.dart';

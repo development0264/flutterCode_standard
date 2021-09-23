@@ -1,4 +1,4 @@
-import 'package:khontext/src/models/signup/complete_profile_response_model.dart';
+import 'package:khontext/src/models/complete_profile_response_model.dart';
 import 'package:meta/meta.dart';
 
 @immutable

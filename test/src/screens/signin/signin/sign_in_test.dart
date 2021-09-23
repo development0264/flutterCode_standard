@@ -11,17 +11,12 @@ import 'package:khontext/khontext_app.dart';
 import 'package:khontext/redux/app_state.dart';
 import 'package:khontext/redux/store/store.dart';
 import 'package:khontext/src/models/signin/sign_in_request_model.dart';
-import 'package:khontext/src/models/signup/complete_profile_response_model.dart';
-import 'package:khontext/src/screens/forgotpassword/forget_password_page.dart';
-import 'package:khontext/src/screens/onboarding/onboarding/onboardingaddress/onboarding_address_page.dart';
-import 'package:khontext/src/screens/onboarding/preonboarding/welcome_screen.dart';
+import 'package:khontext/src/models/complete_profile_response_model.dart';
 import 'package:khontext/src/screens/signin/apiprovider/sign_in_api.dart';
 import 'package:khontext/src/screens/signin/signin/sign_in.dart';
-import 'package:khontext/src/screens/signup/create_account_page.dart';
 import 'package:khontext/utils/constants.dart';
 import 'package:khontext/utils/enums.dart';
 import 'package:khontext/utils/flavor_config.dart';
-import 'package:khontext/utils/routes_constants.dart';
 import 'package:khontext/utils/utils.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -53,10 +48,6 @@ void main() {
         } else {
           return http.Response(json.encode(MockSignInData.failLoginResponse), 200);
         }
-      } else if (request.url.path.contains(ApiEndpoints.userChatToken)) {
-        return http.Response(json.encode(MockSignInData.chatTokenSuccessResponse), 200);
-      } else if (request.url.path.contains(ApiEndpoints.getUserAddressList)) {
-        return http.Response(json.encode(MockSignInData.userAddressListSuccess), 200);
       }
 
       return http.Response(null, 400);
@@ -66,10 +57,10 @@ void main() {
       child: MaterialApp(
         home: child,
         routes: {
-          RoutesConstants.forgotPassword: (context) => ForgetPasswordPage(),
-          RoutesConstants.signUp: (context) => CreateAccountPage(),
-          RoutesConstants.welcomeScreen: (context) => WelcomeScreenPage(),
-          RoutesConstants.onBoardingAddressScreen: (context) => OnBoardingAddressPage(),
+          // RoutesConstants.forgotPassword: (context) => ForgetPasswordPage(),
+          // RoutesConstants.signUp: (context) => CreateAccountPage(),
+          // RoutesConstants.welcomeScreen: (context) => WelcomeScreenPage(),
+          // RoutesConstants.onBoardingAddressScreen: (context) => OnBoardingAddressPage(),
         },
       ),
     );
