@@ -34,6 +34,7 @@
 -> To have the common files for colors, fonts, textstyles is the best practice.
 
 #Naming Convention
+
 -> Begin global constant names with prefix "k", In flutter the standard of writing global constant is that it should start with "k". EG: const double kParagraphSpacing = 1.5;
 
 -> Avoid anonymous parameter names, while passing name into function make sure, you pass proper name and don't pass name which will not be reconize. For eg if you want to pass first name into any function give the parameter name as firstName not a.
